@@ -1,3 +1,14 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
 }
+
+h1, h2 {
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: darkslategrey;
+}
+
+#logo { 
+    float: left;
+    font-size: 280%;
+}
