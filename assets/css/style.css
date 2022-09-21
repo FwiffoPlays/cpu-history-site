@@ -5,52 +5,61 @@ body {
 h1, h2 {
     text-transform: uppercase;
     letter-spacing: 4px;
-    color: darkslategrey;
+    color: rgb(0, 25, 25);
 }
 
 #logo { 
-    float: left;
-    font-size: 250%;
+    font-size: 3em;
     text-decoration: none;
+    background-color: rgb(194, 194, 194);
+    color: rgb(50, 50, 50);
+    white-space: wrap;
 }
 
-#menu {
-    font-size: 110%;
-    letter-spacing: 3px;
+#logo:hover {
+  background-color: rgb(194, 194, 194);
+  color: rgb(50, 50, 50);
 }
 
-#menu, #logo {
-    line-height: 75px;
+main {
+  display: flex;
 }
-
-#menu li {
-    float: right;
-    list-style-type: none;
-    margin-right: 30px;
-}
-
-#menu a {
-    text-decoration: none;
-    color: inherit;
-}
-
-#menu a:hover {
-    border-bottom: 1px solid darkslategray;
-}
-
 .flex-container {
     display: flex;
     flex-wrap: wrap;
-    font-size: 30px;
+   
     text-align: center;
     flex-direction: column;
   }
   
-  .flex-item-left {
-    background-color: #f1f1f1;
-    padding: 10px;
-    flex: 50%;
+
+  .flex-nav {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+  
+    justify-content: center;
+    align-items: center;
+    font-size: 120%;
+    letter-spacing: 3px;
+    
+    
   }
+
+  .flex-nav a {
+    text-decoration: none;
+    padding: 14px 20px;
+    background-color: rgb(194, 194, 194);
+    color: rgb(50, 50, 50);
+    flex: 80%;
+    white-space: nowrap;
+  }
+
+  .flex-nav a:hover {
+    background-color: rgb(50, 50, 50);
+    color: rgb(194, 194, 194);
+  }
+    
   
   .flex-item-right {
     background-color: dodgerblue;
@@ -59,8 +68,24 @@ h1, h2 {
   }
   
   /* Responsive layout - makes a one column-layout instead of a two-column layout */
-  @media (max-width: 800px) {
-    .flex-item-right, .flex-item-left {
+  @media (max-width: 1200px) {
+    .flex-nav {
       flex: 100%;
+      flex-direction: column;
+    }
+
+    .flex-nav a {
+      width:100%
+      
+    }
+
+    #logo {
+      font-size: 2em
+    }
+  }
+
+  @media (max-width: 600px) {
+    #logo {
+      font-size: 1em
     }
   }
