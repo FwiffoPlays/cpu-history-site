@@ -1,5 +1,10 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+p {
+  font-size: 1.5em;
 }
 
 h1, h2 {
@@ -9,12 +14,19 @@ h1, h2 {
 }
 
 #logo { 
-    font-size: 3em;
+    font-size: 2em;
     text-decoration: none;
-    background-color: rgb(194, 194, 194);
+    /*background-color: rgb(194, 194, 194);*/
     color: rgb(50, 50, 50);
     white-space: wrap;
 }
+#hero-image {
+  height: 600px;
+  width: 100%;
+  background: url('../images/cpu_image_1.jpg') no-repeat center center;
+
+}
+
 
 #logo:hover {
   background-color: rgb(194, 194, 194);
@@ -28,8 +40,9 @@ main {
     display: flex;
     flex-wrap: wrap;
    
-    text-align: center;
+    text-align: left;
     flex-direction: column;
+    padding-left: 1em;
   }
   
 
@@ -61,13 +74,8 @@ main {
   }
     
   
-  .flex-item-right {
-    background-color: dodgerblue;
-    padding: 10px;
-    flex: 50%;
-  }
   
-  /* Responsive layout - makes a one column-layout instead of a two-column layout */
+  /* Responsive layout - switches the nav orientation from a row to a column and decreases the logo's font size as the screen size reduces*/
   @media (max-width: 1200px) {
     .flex-nav {
       flex: 100%;
@@ -87,5 +95,13 @@ main {
   @media (max-width: 600px) {
     #logo {
       font-size: 1em
+    }
+
+    #hero-image {
+      max-height: 300px;
+      width: 100%;
+      background-size: contain;
+
+
     }
   }
