@@ -11,8 +11,14 @@ h1, h2 {
     text-transform: uppercase;
     letter-spacing: 4px;
     color: rgb(0, 25, 25);
+    font-size: 160%;
 }
 
+img {
+  
+  max-width: 60%;
+  object-position: center;
+}
 #logo { 
     font-size: 2em;
     text-decoration: none;
@@ -27,6 +33,17 @@ h1, h2 {
 
 }
 
+#back-to-top {
+  position: fixed;
+  bottom:30px;
+  right:20px;
+  font-size: 200%;
+  text-decoration: none;
+  background-color: rgb(50, 50, 50);
+  color:rgb(194, 194, 194);
+  border-radius: 10%;
+
+}
 
 #logo:hover {
   background-color: rgb(194, 194, 194);

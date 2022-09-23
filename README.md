@@ -25,3 +25,9 @@ The primary technologies used for this project were:
 ## Credits
 
 Hero image from user 'tomeqs' on Shutterstock: https://www.shutterstock.com/g/tomeqs?q=cpu
+
+Intel C4004 image from 'Thomas Nguyen' on Wikipedia: https://en.wikipedia.org/wiki/Intel_4004#/media/File:Intel_C4004.jpg
+
+Intel Pentium P54C die image from 'Pauli Rautakorpi' on Wikipedia: https://en.wikipedia.org/wiki/Pentium_(original)#/media/File:Intel_Pentium_P54C_die.jpg
+
+Apple M1 processor illustration from Henriok on Wikipedia: https://en.wikipedia.org/wiki/Apple_M1#/media/File:Apple_M1.jpg
