@@ -19,6 +19,7 @@ img {
   max-width: 60%;
   object-position: center;
 }
+
 #logo { 
     font-size: 2em;
     text-decoration: none;
@@ -26,6 +27,7 @@ img {
     color: rgb(50, 50, 50);
     white-space: wrap;
 }
+
 #hero-image {
   height: 600px;
   width: 100%;
@@ -50,9 +52,16 @@ img {
   color: rgb(50, 50, 50);
 }
 
+#page-not-found {
+  text-align: center;
+  padding-top: 2em;
+  font-size: 180%;
+}
+
 main {
   display: flex;
 }
+
 .flex-container {
     display: flex;
     flex-wrap: wrap;
@@ -61,19 +70,15 @@ main {
     flex-direction: column;
     padding-left: 1em;
   }
-  
 
   .flex-nav {
     display: flex;
     flex-direction: row;
     text-align: center;
-  
     justify-content: center;
     align-items: center;
     font-size: 120%;
     letter-spacing: 3px;
-    
-    
   }
 
   .flex-nav a {
@@ -90,8 +95,6 @@ main {
     color: rgb(194, 194, 194);
   }
     
-  
-  
   /* Responsive layout - switches the nav orientation from a row to a column and decreases the logo's font size as the screen size reduces*/
   @media (max-width: 1200px) {
     .flex-nav {
@@ -101,7 +104,6 @@ main {
 
     .flex-nav a {
       width:100%
-      
     }
 
     #logo {
@@ -118,7 +120,5 @@ main {
       max-height: 300px;
       width: 100%;
       background-size: contain;
-
-
     }
   }

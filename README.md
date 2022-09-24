@@ -31,3 +31,5 @@ Intel C4004 image from 'Thomas Nguyen' on Wikipedia: https://en.wikipedia.org/wi
 Intel Pentium P54C die image from 'Pauli Rautakorpi' on Wikipedia: https://en.wikipedia.org/wiki/Pentium_(original)#/media/File:Intel_Pentium_P54C_die.jpg
 
 Apple M1 processor illustration from Henriok on Wikipedia: https://en.wikipedia.org/wiki/Apple_M1#/media/File:Apple_M1.jpg
+
+Burning CPU image from StockFreeImages: https://www.stockfreeimages.com/8976244/Burning-processor.html
