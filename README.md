@@ -2,10 +2,18 @@
 
 This project is for a static website built using HTML and CSS which aims to detail some of the history of the CPU and its development, remaining conscious of accessibility and responsiveness for a variety of devices.
 
+
 ## Features
 
 The majority of the content within site is contained within a single scrolling page, including navigation buttons at the top of the page to jump to a specific section and a 'back to top' button which allows the user to easily return to the top in order to navigate somewhere else. The scrolling nature of the main content allows for the user to read through the content without interruption but still allows for easy navigation through the use of the provided navigation buttons.
+
+A custom 404 page has been implemented on the site so that in the event a user navigates to an invalid page they can easily return to the index.
+
+
 ## Design
+
+A simple design is employed on the site, focusing primarily on a consistent 'metal grey' colour scheme in line with the theme of the CPU and technology, as well as a simple to navigate and understand layout which does not impede the user's reading of the content.
+
 
 ## Technologies
 
@@ -16,11 +24,19 @@ The primary technologies used for this project were:
 - CSS
   - CSS dictates the styling and formatting of the content which has been placed on the page through HTML
   - Flex-box formatting was used within CSS to align the pages' contents.
+- All images displayed on the site were converted to the 'webp' format, offering better image compression and therefore smaller file sizes for faster page load times. This becomes more important as more pictures are added to the site, otherise the user could have to wait several seconds or more for the page's content to be correctly displayed, harming the user experience.
 
 
 ## Testing
 
+Several forms of testing took place throughout the site's development. The most frequent and simple form being a visual check of the change which occured from code changes, done by hosting a web server within the Gitpod environment and navigating quickly throughout the site.
+
+
 ## Deployment
+
+The final deployment of the site was completed using Github Pages. This is done by going to the settings of the site's repository, navigating to th 'Pages' section and clicking deploy. After a short time the site is deployed to your github directory. In my case, this would be 
+https://fwiffoplays.github.io/cpu-history-site/suggestions.html
+
 
 ## Credits
 
