@@ -16,7 +16,6 @@ h1, h2 {
 }
 
 img {
-  
   max-width: 60%;
   object-position: center;
 }
@@ -41,14 +40,13 @@ input[type=submit] {
     font-size: 2em;
     text-decoration: none;
     color: rgb(50, 50, 50);
-    white-space: wrap; /* Allow the text in the logo to split onto two lines */
+    white-space: normal; /* Allow the text in the logo to split onto two lines */
 }
 
 #hero-image {
   height: 600px;
   width: 100%;
   background: url('../images/Cpu_Image.webp') no-repeat center center;
-
 }
 
 #back-to-top {
@@ -78,7 +76,6 @@ input[type=submit] {
 .flex-container {
     display: flex;
     flex-wrap: wrap;
-   
     text-align: left;
     flex-direction: column;
     padding-left: 1em;
@@ -154,6 +151,9 @@ input[type=submit] {
     background-size: contain;
   }
 
+  .form-section {
+    padding-left: 0.5em;
+  }
   .form-section h1 {
     font-size: 120%
   }
