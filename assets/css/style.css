@@ -95,22 +95,25 @@ main {
   }
     
   /* Responsive layout - switches the nav orientation from a row to a column and decreases the logo's font size as the screen size reduces*/
-  @media (max-width: 1200px) {
-    .flex-nav {
-      flex: 100%;
-      flex-direction: column;
-    }
+  @media (max-width: 1250px) {
+    
 
     .flex-nav a {
       width:100%
     }
 
     #logo {
-      font-size: 2em
+      font-size: 1em;
+      white-space: break-spaces;
     }
   }
 
-  @media (max-width: 600px) {
+  @media (max-width: 950px) {
+    .flex-nav {
+      flex: 100%;
+      flex-direction: column;
+    }
+
     #logo {
       font-size: 1em
     }
