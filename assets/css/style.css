@@ -34,6 +34,9 @@ input[type=submit] {
   font-size: 1em;
 }
 
+footer {
+  height: 150px;
+}
 /* ID Styles: */
 
 #logo { 
@@ -118,8 +121,23 @@ input[type=submit] {
   font-size: 2em;
   padding-top: 0.5em;
 }
+
+.social-networks {
+  text-align: center;
+}
+
+.social-networks > li {
+  display: inline;
+}
     
-  /* Media queries for site responsiveness: */
+.social-networks i {
+  font-size: 160%;
+  margin: 1%;
+  padding: 5%;
+  color: rgb(50, 50, 50);
+}
+  
+/* Media queries for site responsiveness: */
 
 @media (max-width: 1250px) { /* For tablet-sized devices: */
 
