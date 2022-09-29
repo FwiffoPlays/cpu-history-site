@@ -66,3 +66,5 @@ Intel Pentium P54C die image from 'Pauli Rautakorpi' on Wikipedia: https://en.wi
 Apple M1 processor illustration from Henriok on Wikipedia: https://en.wikipedia.org/wiki/Apple_M1#/media/File:Apple_M1.jpg
 
 Burning CPU image from StockFreeImages: https://www.stockfreeimages.com/8976244/Burning-processor.html
+
+Happy CPU image from Heriyusuf on Vecteezy.com: https://www.vecteezy.com/vector-art/3439377-happy-processor-cartoon-playing-soap-bubble

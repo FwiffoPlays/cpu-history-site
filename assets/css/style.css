@@ -108,11 +108,9 @@ input[type=submit] {
 .form-section {
   display: flex;
   flex-wrap: wrap;
-  
   text-align: left;
   flex-direction: column;
   padding-left: 1em;
-
 }
 
 .form-item {
@@ -135,7 +133,13 @@ input[type=submit] {
     }
   }
 
+  
 @media (max-width: 950px) { /* For phone-sized devices: */
+
+  img {
+    max-width: 100%;
+  }
+
   .flex-nav {/* Change nav header links to column for better mobile viewing */
     flex: 100%;
     flex-direction: column;
