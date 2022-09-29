@@ -16,7 +16,7 @@ h1, h2 {
 }
 
 img {
-  max-width: 60%;
+  max-width: 50%;
   object-position: center;
 }
 
@@ -137,6 +137,7 @@ footer {
   color: rgb(50, 50, 50);
 }
   
+
 /* Media queries for site responsiveness: */
 
 @media (max-width: 1250px) { /* For tablet-sized devices: */
